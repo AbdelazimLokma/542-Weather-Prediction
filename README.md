@@ -75,19 +75,13 @@ While the LSTM model is powerful for time-series prediction, its performance in 
 
 ## How to Run This Project
 
-1. Install the necessary dependencies using the following command:
+1. Run the Jupyter notebook `lstm_and_rr_models.ipynb` to see the data processing, model training, and evaluation.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-2. Run the Jupyter notebook `report.ipynb` to see the data processing, model training, and evaluation.
-
-3. You can also execute the Kalshi trading strategy by using the trading script found in `kalshi_trading.py`.
+2. You can also execute the Kalshi trading strategy by using the trading script found in `kalshi_trading.py`.
 
 ## Project Files
 
-- `report.ipynb`: Jupyter notebook with all data analysis, model training, and results.
+- `lstm_and_rr_models.ipynb`: (Jupyter notebook with LSTM and Ridge Regression models)
 - `kalshi_trading.py`: Python script for implementing the Kalshi trading strategy.
 - `Kalshi-Recent-Activity.csv`: CSV file showing the trades made on Kalshi.
 - `README.md`: This file.
